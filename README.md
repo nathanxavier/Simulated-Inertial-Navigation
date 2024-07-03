@@ -8,3 +8,9 @@ This GitHub Project Repository was created based on the paper: ***UAV Inertial N
  The scene is complete, having the sensors, drones, and any communication needed.
 
 We used the CoppeliaSim Version 4.6.0 (rev. 18)
+For Python, you need the following libraries:
+ - gym (OPENAI)
+ - sim (CoppeliaSim)
+ - Tensorflow
+
+No GPU is necessary in this application.
