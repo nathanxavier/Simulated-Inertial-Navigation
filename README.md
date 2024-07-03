@@ -1,11 +1,10 @@
-# Navegação Inercial Simulada
+# Simulated Inertial Navigation
 
-Para a comunicação do CoppeliaSim e os códigos em Python, sugere-se a leitura do manual do CoppeliaSim [Link](https://manual.coppeliarobotics.com/en/remoteApiOverview.htm)
+This GitHub Project Repository was created based on the paper: ***UAV Inertial Navigation by Deep Neural Networks Applied in a Simulated Environment***
 
- O Código principal em Python é identificado pelo nome ICITED.ipynb.
-
- A cena elaborada no CoppeliaSim, juntamente da inclusão dos sensores está disponível na pasta scene.
+ The main.ipynb code was developed in Python (Jupyter).
  
- O modelo da rede neural utilizado, com o melhor desempenho, é disponibilizado dentro da pasta NNBO.
- 
- As funções e implementações do filtro de Kalman são disponibilizados na pasta EKF.
+ The scene needs to be opened in CoppeliaSim, and pushed the play button.
+ The scene is complete, having the sensors, drones, and any communication needed.
+
+We used the CoppeliaSim Version 4.6.0 (rev. 18)
